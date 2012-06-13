@@ -9,7 +9,7 @@ $.getJSON("https://api.github.com/users/boredomist/repos?callback=?",
                       .append($('<tr>')
                               .append($('<td>')
                                       .append($('<a>')
-                                              .attr("href", repo.url)
+                                              .attr("href", repo.html_url)
                                               .text(repo.name)))
                               .append($('<td>')
                                       .text(repo.description)));
