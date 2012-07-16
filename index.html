@@ -3,66 +3,18 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Personal site of Erik Price">
-    <meta name="author" content="Erik Price">
     <meta name="google-site-verification" content="54OJDnXurSPvuk6m8RgK_cC6rDX-qCNXlsXfrR9IZT8" />
-    
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="css/site.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>Erik Price</title>
   </head>
 
   <body>
-    <div class="container">
-      <div class="content">
-
-        <div class="page-header">
-          <h1>Erik Price <small>Your one stop source for everything Erik
-              Price</small></h1>
-        </div>
-
-        <div>
-          <h2>About Me</h2>
-
-          <p>Hi there, I'm Erik.</p>
-          <p>I usually go by the handle boredomist online, and
-            occasionally do some open source programming projects,
-            which you can find over
-            on <a href="http://github.com/boredomist">github</a>
-          </p>
-
-          <h2>Projects</h2>
-
-          <p>Here are the last 10 github projects I've worked on. The
-            full list can be found on
-            my <a href="http://github.com/boredomist">github profile</a></p>
-
-          <table id="gh" class="bordered-table zebra-striped">
-            <thead>
-              <tr>
-                <th>Project</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-            </tbody>
-          </table>
-
-        </div>
-      </div>
-      <footer>
-        <p>This site
-          is <a href="http://github.com/boredomist/erikprice.net">open
-            source</a></p>
-      </footer>
-    </div> <!-- /content -->
-
-    <script type="text/javascript"
-            src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/github.js"> </script>
+    <header>
+      <h1 id="h">Erik Price</h1>
+    </header>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script type="text/javascript"> $("#h").fitText(1); </script>
   </body>
 </html>
