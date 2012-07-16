@@ -1,9 +1,30 @@
-/* Override some defaults */
-html, body {
-    font-family: Helvetica;
+* {
+    font-family: Helvetica, Arial, Sans;
+    overflow: hidden;
 }
 
-header {
+#name {
+    font-weight: bold;
+    font-size: 250px;
     width: 100%;
-    text-align:center;
+    text-align: center;
+}
+
+#links {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: inline;
+    padding-bottom: 5px;
+}
+
+#links a {
+    margin: 0 5px 0 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#links a:hover {
+    color: #333;
 }
