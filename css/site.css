@@ -1,6 +1,10 @@
 * {
     font-family: Helvetica, Arial, Sans;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    position: relative;
 }
 
 #name {
