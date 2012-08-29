@@ -32,3 +32,17 @@
 #links a:hover {
     color: #333;
 }
+
+#content {
+    width: 700px;
+    margin: auto;
+}
+
+#content a {
+    text-decoration: none;
+    color: #333;
+}
+
+#content a:hover {
+    color: #000;
+}
