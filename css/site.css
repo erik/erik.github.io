@@ -1,6 +1,15 @@
+/* Evil Google tracking via webfonts */
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Titillium+Web);
+
 * {
-    font-family: Helvetica, Arial, Sans;
+    font-family: Titillium Web, sans-serif;
+    font-weight: 400;
     overflow-x: hidden;
+}
+
+h1 {
+    font-family: Poiret One;
+    font-weight: bold;
 }
 
 #wrapper {
@@ -8,7 +17,7 @@
 }
 
 #name {
-    font-weight: bold;
+    font-family: Poiret One, sans-serif;
     font-size: 250px;
     width: 100%;
     text-align: center;
@@ -38,8 +47,12 @@
     margin: auto;
 }
 
+#content p {
+    text-align: justify;
+}
+
 #content a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #333;
 }
 
