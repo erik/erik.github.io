@@ -1,0 +1,115 @@
+/* Evil Google tracking via webfonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,100italic,300italic);
+
+
+/* Global HTML element formatting */
+* {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 7px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-family: Roboto;
+    width: 100%;
+    color: #222;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+code {
+    font-family: Monospace;
+}
+
+i {
+    display: inline-block;
+}
+
+h2 .source {
+    float: right;
+    font-size: .6em;
+    margin-right: 10px;
+}
+
+h2 .lang {
+    margin-left: 5px;
+    font-size: .6em;
+    color: #888;
+
+}
+
+a:hover {
+    color: #888;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+
+#sidebar a {
+    text-decoration: none;
+}
+
+
+#nav {
+    margin-top: 7px;
+}
+
+#nav a {
+    margin-left: 0px;
+    display: block;
+}
+
+#sidebar a {
+    color: #000;
+}
+
+#sidebar #contact i {
+    text-align: center;
+    margin-left: 10px;
+    color: #555;
+    display: inline-block;
+    width: 15%;
+}
+
+#sidebar #contact a {
+    margin-left: 5px;
+    width: 90%;
+}
+
+#sidebar #contact i:hover {
+    color: #222;
+}
+
+#content p {
+    text-align: justify;
+}
+
+#content a {
+    text-decoration: underline;
+    color: #222;
+}
+
+#projects p {
+    margin: 15px 30px auto 30px;
+    text-align: justify;
+}
