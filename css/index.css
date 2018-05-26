@@ -2,6 +2,8 @@ main {
   max-width: 400px;
   margin: 0 auto;
   font-size: 3em;
-  font-family: Comic Sans MS, Comic Sans, Papyrus; /* go away */
-  color: #333;
+  color: #332;
+
+  /* go away */
+  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "Chalkboard SE", Papyrus, sans-serif;
 }
