@@ -1,8 +1,14 @@
+body {
+  background: repeating-linear-gradient( 23deg, violet, violet 10px, white 10px, white 20px );
+}
+
 main {
   max-width: 400px;
   margin: 0 auto;
   font-size: 3em;
   color: #332;
+  background: white;
+  padding: 0 1em;
 
   /* go away */
   font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "Chalkboard SE", Papyrus, sans-serif;
