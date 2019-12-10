@@ -1,15 +1,32 @@
-body {
-  background: repeating-linear-gradient( 23deg, violet, violet 10px, white 10px, white 20px );
+html {
+  /* go away */
+  background: linear-gradient(23deg, white, violet, pink, white) fixed;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+span {
+  background-color: #333;
 }
 
 main {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   font-size: 3em;
-  color: #332;
-  background: white;
+  color: #FFF;
   padding: 0 1em;
 
-  /* go away */
-  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "Chalkboard SE", Papyrus, sans-serif;
+  text-align: justify;
+
+  font-family: monospace;
+  line-height: 1.5;
 }
