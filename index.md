@@ -15,11 +15,6 @@ and
 [write code](https://github.com/erik).
 </span>
 
-<span>
-currently,
-[bird](https://bird.co)
-pays me to write code.
-</span>
 
 <span>
 if you want to pay me to ride bicycles,
