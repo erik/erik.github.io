@@ -17,7 +17,7 @@ and
 
 <span>
 currently,
-[doordash](https://doordash.com)
+[komoot](https://komoot.com)
 pays me to write code.
 </span>
 
