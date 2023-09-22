@@ -1,0 +1,85 @@
+:root {
+    --accent-color: #801d21;
+    --base-font-color: rgba(0, 0, 0, 0.8);
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+body {
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-font-smoothing: antialiased;
+
+    color: var(--base-font-color);
+    font-family: var(--font-family);
+    background: #fbf9f1;
+}
+
+main {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0 1em;
+}
+
+p {
+    margin: 0 0 1.5em;
+}
+
+a:focus,
+a:hover {
+    color: white;
+    background: var(--accent-color);
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.project-tag {
+    display: inline-block;
+    padding: 0.2em 0.6em 0.3em;
+    margin: 0 0.2em 0.2em 0;
+    font-size: 75%;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    color: white;
+    background-color: var(--accent-color);
+    opacity: 0.75;
+}
+
+.project-tags {
+    float: right;
+}
+
+h1 {
+    font-size: 1.15em;
+    line-height: 1.25em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.project {
+    margin-bottom: 1em;
+}
+
+.project-title {
+    font-weight: 500;
+}
+
+.project-description p {
+    margin: 0;
+    padding: 0;
+}
+
+.project-section {
+    padding-bottom: 1em;
+}

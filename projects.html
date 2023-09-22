@@ -1,0 +1,52 @@
+---
+layout: base
+title: Selected Projects
+stylesheets:
+- 'css/projects.css'
+---
+
+<h1>Selected Projects</h1>
+
+<p>
+  Over the years, I've written a ton of code in public. Some projects were
+  inspired by niche problems I faced, some were because I wanted to learn a new
+  technology, and some were entirely for fun.
+</p>
+
+<p>
+  The list below is a selection of some of the more substantial projects I've
+  built. For the full list, as well as contributions to other projects, check
+  out <a href="https://github.com/erik">my GitHub</a>.
+</p>
+
+
+{% assign grouped_projects = site.data.projects.projects | group_by: "group" %}
+
+<div class="projects-wrapper">
+  {% for group in site.data.projects.groups %}
+
+  {% assign projects = site.data.projects.projects | where: "group", group.name %}
+  {% assign sorted_projects = projects | sort: "year" | reverse %}
+
+  <div class="project-section">
+    <h2>{{ name | default: group.title }}</h2>
+    {% for proj in sorted_projects %}
+    <div class="project">
+      <div class="project-title" id="{{ proj.name }}">
+        <a href="https://github.com/erik/{{ proj.github }}">{{ proj.name }}</a>
+
+        <div class="project-tags">
+          {% for tag in proj.tags %}
+          <span class="project-tag">{{ tag }}</span>
+          {% endfor %}
+          <span class="project-tag">{{ proj.year }}</span>
+        </div>
+      </div>
+      <div class="project-description">
+        {{ proj.description | markdownify }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>

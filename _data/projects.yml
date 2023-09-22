@@ -1,0 +1,250 @@
+groups:
+- name: maps
+  title: "Maps & Geospatial"
+- name: tools
+  title: "Tools & Utilities"
+- name: exp
+  title: "Experiments"
+- name: langs
+  title: "Programming Languages"
+- name: libs
+  title: "Libraries & Frameworks"
+- name: systems
+  title: "Low-Level Systems"
+
+projects:
+- name: Atto
+  github: atto
+  tags: [C]
+  group: langs
+  year: 2011
+  description: |
+    Tiny, stack-based virtual machine. Designed to be simple to target and
+    reasonably fast.
+- name: Bijou
+  github: bijou
+  tags: [C]
+  group: langs
+  year: 2010
+  description: |
+    Register-based virtual machine and assembly language modeled off Lua.
+- name: Frink
+  github: frink
+  tags: [C]
+  group: langs
+  year: 2011
+  description: |
+    Implementation of a Forth-like language, built on top of Atto.
+- name: Gob
+  github: gob
+  tags: [Go]
+  group: langs
+  year: 2013
+  description: |
+    Compiler for [B](https://cm.bell-labs.com/cm/cs/who/dmr/btut.html)
+    (the lesser-known ancestor of C).
+- name: Alexandra
+  github: alexandra
+  tags: [Python]
+  group: libs
+  year: 2016
+  description: |
+    Python library for building Lambda functions in the style of Flask.
+- name: Valatra
+  github: valatra
+  tags: [Vala]
+  group: libs
+  year: 2010
+  description: |
+    Sinatra-inspired web framework for Vala.
+- name: Acedia
+  github: acedia
+  tags: [C]
+  group: systems
+  year: 2010
+  description: |
+    Operating System from scratch, written in C.
+- name: Cudamon
+  github: cudamon
+  tags: [C]
+  group: systems
+  year: 2012
+  description: |
+    Monitor and control NVIDIA GPUs from the command line.
+- name: Plath
+  github: plath
+  tags: [Rust]
+  group: systems
+  year: 2015
+  description: |
+    Reimplementing the `pthreads` API from first principles.
+- name: fnr
+  github: fnr
+  tags: [Rust]
+  group: tools
+  year: 2022
+  description: |
+    Command-line tool for bulk find-and-replace operations.
+- name: GitHub Notify
+  github: github-notify
+  tags: [Swift]
+  group: tools
+  year: 2018
+  description: |
+    MacOS menu bar app for GitHub notifications.
+- name: Hermit
+  github: hermit
+  tags: [Elixir]
+  group: tools
+  year: 2018
+  description: |
+    Pipe terminal output to a sharable web page.
+- name: Mixport
+  github: mixport
+  tags: [Go]
+  year: 2014
+  group: tools
+  description: |
+    Download and process all of your Mixpanel data.
+- name: Pension
+  github: pension
+  tags: [Python]
+  group: tools
+  year: 2015
+  description: |
+    Tool to manage AWS instance retirement notices.
+- name: Holepunch
+  github: holepunch
+  tags: [Python]
+  group: tools
+  year: 2016
+  description: |
+    AWS security group management ingress CLI.
+- name: Squabble
+  github: squabble
+  tags: [Python, SQL]
+  group: tools
+  year: 2018
+  description: |
+    SQL query and migration linter.
+- name: vxsv
+  github: vxsv
+  tags: [Go]
+  group: tools
+  year: 2017
+  description: |
+    Tabular data viewer for the terminal.
+- name: Gruppo
+  github: gruppo
+  tags: [Go]
+  group: exp
+  year: 2018
+  description: |
+    Publishing platform powered by Google Docs.
+- name: mail2static
+  github: mail2static
+  tags: [Python]
+  group: exp
+  year: 2019
+  description: |
+    Email to static site generator.
+- name: Nestorama
+  github: nestorama
+  group: exp
+  tags: [C]
+  year: 2012
+  description: |
+    Nintendo Entertainment System emulator.
+- name: Org Server
+  github: org-server
+  tags: [Emacs Lisp]
+  group: exp
+  year: 2010
+  description: |
+    Serve org-mode files as HTML, directly from Emacs!
+- name: Pontoon
+  github: pontoon
+  tags: [Elixir]
+  group: exp
+  year: 2017
+  description: |
+    Implementation of the Raft distributed consensus algorithm.
+- name: Dérive
+  github: derive
+  tags: [JavaScript]
+  group: maps
+  year: 2016
+  description: |
+    Browser-based personal activity heatmap from GPX data.
+- name: Strava Heatmap Proxy
+  github: strava-heatmap-proxy
+  tags: [JavaScript]
+  group: maps
+  year: 2021
+  description: |
+    Make Strava heatmap tiles available for use anywhere.
+- name: Unexplored
+  github: unexplored
+  tags: [Lua, SQL]
+  group: maps
+  year: 2021
+  description: |
+    Create maps of roads and paths you've never taken.
+- name: Where is Erik?
+  github: where
+  tags: [JavaScript]
+  group: maps
+  year: 2018
+  description: |
+    Personal, spatial microblogging.
+- name: Alexacast
+  github: alexacast
+  tags: [Python]
+  group: tools
+  year: 2014
+  description: |
+    Control your Chromecast with Alexa.
+- name: lastcast
+  github: lastcast
+  tags: [Python]
+  group: tools
+  year: 2014
+  description: |
+    Scrobble your Chromecast listening to Last.fm.
+- name: Rain
+  github: rain
+  tags: [Elm]
+  group: tools
+  year: 2016
+  description: |
+    Modern IRC client for the web.
+- name: Recipe Cleaner
+  github: recipecleaner
+  tags: [JavaScript]
+  group: tools
+  year: 2017
+  description: |
+    Browser extension to remove cruft from recipe pages.
+- name: Panamint
+  github: sketches/tree/master/projects/panamint
+  tags: [Rust]
+  group: maps
+  year: 2022
+  description: |
+    Fully-configurable routing engine for OpenStreetMap data.
+- name: Sore Legs
+  github: sketches/tree/master/projects/sorelegs
+  tags: [Python]
+  group: maps
+  year: 2023
+  description: |
+    Telegram-powered cycle-touring journal.
+- name: Half Racer
+  github:
+  tags: [TypeScript]
+  year: 2023
+  group: maps
+  description: |
+    Endurance race route planner.
+
+
