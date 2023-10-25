@@ -239,12 +239,11 @@ projects:
   year: 2023
   description: |
     Telegram-powered cycle-touring journal.
-- name: Half Racer
-  github:
-  tags: [TypeScript]
+- name: Hotpot
+  github: hotpot
+  tags: [Rust]
   year: 2023
   group: maps
   description: |
-    Endurance race route planner.
-
+    Personal heatmap tile server (à la Strava).
 
